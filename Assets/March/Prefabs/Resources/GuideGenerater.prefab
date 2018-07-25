@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1620790233766448}
+  m_IsPrefabParent: 1
+--- !u!1 &1620790233766448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224962403450900084}
+  - component: {fileID: 114244898690066818}
+  m_Layer: 5
+  m_Name: GuideGenerater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114244898690066818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1620790233766448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1cdc249ae1a494ebcf4710947eeda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GuideText: {fileID: 4900000, guid: c61af360e46c8cc47a5cb55fe18aa4f9, type: 3}
+  GuideData:
+    Name: Guide_9_2
+    ItemList:
+    - ObjectName: GuideImage (2)
+      AnchorMin:
+        X: 0.5
+        Y: 0.5
+        Z: 0
+      AnchorMax:
+        X: 0.5
+        Y: 0.5
+        Z: 0
+      Pivot:
+        X: 0.5
+        Y: 0.5
+        Z: 0
+      AnchorPosition:
+        X: 135.56
+        Y: 114.44
+        Z: 0
+      Size:
+        X: 112.92
+        Y: 108.81
+        Z: 0
+    ConditionList: []
+    Window:
+      Position:
+        X: 166.35446
+        Y: -150.79997
+        Z: 0
+      Content: 210126
+      NextButtonContent: 210155
+      HasNextButton: 1
+      HasHead: 1
+    Hand:
+      Position:
+        X: 273
+        Y: 222
+        Z: 0
+      Direction:
+        X: -0.1
+        Y: -0.1
+        Z: 0
+      Duration: 0.5
+      Show: 1
+  StepMax: 100
+  AutoMode: 0
+--- !u!224 &224962403450900084
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1620790233766448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
