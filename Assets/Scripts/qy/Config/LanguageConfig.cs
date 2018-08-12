@@ -12,7 +12,8 @@ namespace qy.config
         public override string Name()
         {
             string ex = (Application.systemLanguage == SystemLanguage.Chinese || Application.systemLanguage == SystemLanguage.ChineseSimplified) ? "cn" : "en";
-            return "language_" + ex + ".xml";
+            //return "language_" + ex + ".xml";
+            return "language_cn.xml";
         }
 
         internal override void ReadItem(XmlElement item)
